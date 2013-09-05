@@ -2,8 +2,8 @@ doctype html
 html
   head
     title Ting's Site
-    = stylesheet_link_tag "application", :media => "all"
-    = javascript_include_tag "jquery"
+    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turbolinks-track" => true
     = csrf_meta_tags
     link href='http://fonts.googleapis.com/css?family=Lato:300,400|Josefin+Slab|Cinzel' rel='stylesheet' type='text/css'
   body
@@ -36,6 +36,8 @@ html
             small Works for
             |Imperial Oil
       div.work
-        div.title Work Experiences
+        / div.title Work Experiences
+        
         div.imperial
-          h2 Imperial Oil
+          =image_tag('imperial.png')
+          div.imp Imperial Oil
