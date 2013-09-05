@@ -22,6 +22,9 @@ body{
 		margin-top: 40px;
 	}
 }
+h2{
+	font-family: 'Josefin Slab', serif;
+}
 .toptext{
 	letter-spacing: 12px;
 	font-family: 'Cinzel', serif;
@@ -74,7 +77,7 @@ body{
 	}
 	.personal{
 		padding-top: 30px;
-		width: 1200px;
+		max-width: 1200px;
 		margin-right: auto;
 		margin-left: auto;
 		font-size: 30px;
@@ -96,6 +99,40 @@ body{
 		}
 	}
 }
+.work{
+	background-color: #436073;
+	color: #f1f1f1;
+	width: 100%;
+	h2{
+		padding-top: 107px;
+		font-family: 'Cinzel', serif;
+		font-style: normal;
+		font-weight: 400;
+		margin: 0;
+		font-size: 64px;
+		text-align: center;
+	}
+	.title{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+		font-size: 30px;
+		color: #F2EBDC;
+	}
+	.imperial{
+		width: 100%;
+		height: 300px;
+		background:url('/assets/imperial.png');
+		-webkit-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+	}
+	.imperial:hover{
+		width: 98%;
+	}
+}
+
 // Spacer
 .spacer1{
 	height: 270px;
