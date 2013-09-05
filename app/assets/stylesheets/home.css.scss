@@ -1,0 +1,103 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	color: #436073;
+}
+.content{
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header{
+	text-align: center;
+	height: 140px;
+	background-color: #D96B62;
+	color: #D96B62;
+	img{
+		margin-top: 40px;
+	}
+}
+.toptext{
+	letter-spacing: 12px;
+	font-family: 'Cinzel', serif;
+}
+.name{
+	font-family: 'Josefin Slab', serif;
+	font-size: 80px;
+}
+.bottext{
+	font-family: 'Josefin Slab', serif;
+	font-size: 24px;
+}
+.sideline {
+	width: 6%;
+	min-width: 32px;
+	height: 1px;
+	margin: 0 2% 24px 2%;
+	background: rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px rgba(255, 255, 255, 0.05);
+	display: inline-block;
+}
+
+.info{
+	background-color: #F2EBDC;
+	text-align: center;
+	padding-bottom: 40px;
+	.social{
+		a {
+			opacity: .75;
+			-webkit-transition-duration: 0.4s;
+			-moz-transition-duration: 0.4s;
+			-ms-transition-duration: 0.4s;
+			-o-transition-duration: 0.4s;
+			transition-duration: 0.4s;
+			-webkit-transition-delay: 0s;
+			-moz-transition-delay: 0s;
+			-ms-transition-delay: 0s;
+			-o-transition-delay: 0s;
+			transition-delay: 0s;
+			text-decoration: none;
+		}
+		a:hover, .social a:focus, .social a:active {
+			opacity: 1;
+		}
+		img{
+			margin: 0 1% 6px 1%;
+			width: 44px;
+			height: 44px;
+		}
+	}
+	.personal{
+		padding-top: 30px;
+		width: 1200px;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 30px;
+		small{
+			font-size: 15px;
+			margin-right: 10px;
+		}
+		.age{
+			width: 33%;
+			display: inline-block;
+		}
+		.job{
+			width: 33%;
+			display: inline-block;
+		}
+		.location{
+			width: 33%;
+			display: inline-block;
+		}
+	}
+}
+// Spacer
+.spacer1{
+	height: 270px;
+	background-color: #F2EBDC;
+}

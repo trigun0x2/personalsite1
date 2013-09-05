@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    title Ting's Site
+    = stylesheet_link_tag "application", :media => "all"
+    = javascript_include_tag "jquery"
+    = csrf_meta_tags
+    link href='http://fonts.googleapis.com/css?family=Lato:300,400|Josefin+Slab|Cinzel' rel='stylesheet' type='text/css'
+  body
+    div.content
+      div.header
+        =image_tag('jeffroundcolor.png', height: "200")
+        div.toptext
+          |my name is
+        div.name
+          |Jeffrey Tong
+        div.bottext
+          |Designer, Developer, Chem Eng
+      div.spacer1
+      div.info
+        div.social
+          div.sideline
+          a href="https://twitter.com/sBerryCake" target="_blank"
+            =image_tag('twitter@2x.png')
+          a href="http://ca.linkedin.com/in/jefft0ng/" target="_blank"
+            =image_tag('linkedin@2x.png')
+          div.sideline
+        div.personal
+          div.age
+            small Age
+            |21
+          div.location
+            small Location
+            |Toronto
+          div.job
+            small Works for
+            |Imperial Oil
